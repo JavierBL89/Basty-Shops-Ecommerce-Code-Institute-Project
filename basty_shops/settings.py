@@ -30,7 +30,7 @@ SECRET_KEY = os.getenv('SECRET_KEY', '')
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['bastyshops.herokuapp.com', 'localhost', 'https://8000-javierbl89-bastyshopsec-r637bpneop8.ws-eu67.gitpod.io']
+ALLOWED_HOSTS = ['bastyshops.onrender.com', 'localhost', 'https://8000-javierbl89-bastyshopsec-r637bpneop8.ws-eu67.gitpod.io']
 
 # Add Render.com URL to allowed hosts
 RENDER_EXTERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME')
