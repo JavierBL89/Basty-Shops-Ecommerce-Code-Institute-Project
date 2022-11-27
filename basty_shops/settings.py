@@ -32,6 +32,11 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['bastyshops.herokuapp.com', 'localhost', 'https://8000-javierbl89-bastyshopsec-r637bpneop8.ws-eu67.gitpod.io']
 
+# Add Render.com URL to allowed hosts
+RENDER_EXTERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME')
+if RENDER_EXTERNAL_HOSTNAME:
+    ALLOWED_HOSTS.append(RENDER_EXTERNAL_HOSTNAME)
+
 # This variable is helpful with DJANGO 4 installed
 # Neccesary for persmissons as prevents others site from hijacking clicks
 # from other site
