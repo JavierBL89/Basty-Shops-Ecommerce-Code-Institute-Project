@@ -167,7 +167,7 @@ LOGIN_REDIRECT_URL = '/'
 WSGI_APPLICATION = 'basty_shops.wsgi.application'
 
 
-# Database
+# Database.
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
 if 'DATABASE_URL' in os.environ:
