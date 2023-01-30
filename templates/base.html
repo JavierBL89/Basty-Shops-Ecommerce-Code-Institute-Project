@@ -66,7 +66,7 @@
         <div class="row navbar d-flex flex-row ps-3 pe-3 navbar">
           <div class="col-2 col-md-3 d-inline-flex text-md-start mb-4 ps-0 ps-md-3 ps-lg-3">
             <button class="burger" id="burger">
-              <i class="fa-solid fa-bars fa-2xl sm-fa-xl"></i>
+              <i class="fa-solid fa-bars" id="burguer-icon"></i>
             </button>
             {% include 'includes/burger_menu.html' %}
           </div>
@@ -79,7 +79,7 @@
             <ul class="list-inline list-unstyled d-flex justify-content-end mt-3">
               <li class="navbar-item me-lg-3 me-2 me-md-3 me-lg-3 dropdown">
                 <a aria-label="Profile" id="profile-icon-link" class="nav-link active" aria-current="page" href="#" data-bs-toggle="dropdown" aria-expanded="false">
-                  <i class="fa-solid fa-user fa-xl"></i>
+                  <i class="fa-solid fa-user"></i>
                 </a>
                 <div class="dropdown-menu border-0" id="dropdownMenuLink" aria-labelledby="dropdownMenuLink">
                   {% if request.user.is_authenticated %}
@@ -96,11 +96,11 @@
               </li>
               <li class="navbar-item me-2 me-md-3 me-lg-3 ">
                 <a aria-label="Wishlisy" id="wishlist-link" class="nav-link" href="#">
-                  <i class="fa-solid fa-heart fa-xl"></i></a>
+                  <i class="fa-solid fa-heart"></i></a>
               </li>
               <li class=" text-center">
                 <a id="bag-link" class="nav-link {% if grand_total %} text-info fw-bold {% else %} text-black {% endif %}" href="{% url 'view_bag' %}" aria-current="page">
-                  <i class="fa-solid fa-bag-shopping fa-xl"></i>
+                  <i class="fa-solid fa-bag-shopping"></i>
                   <p class="my-0">
                     {% if grand_total %}
                     {{ grand_total|floatformat:2 }}

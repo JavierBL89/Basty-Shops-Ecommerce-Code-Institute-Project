@@ -46,16 +46,21 @@ body{
 header .container-fluid{
     padding: 0;
 }
+
 header .navbar{
     height: 90px;
+    max-width: 110rem;
 }
+
 header .row{
-    margin: 0 auto;
+    margin: 5px auto;
     justify-content: space-between;
 }
 
 .search-container{
     height: 45px;
+    max-width: 110rem;
+
 }
 
 input[name="q"]{
@@ -65,6 +70,9 @@ input[name="q"]{
  height: 40px;
  font-size: 0.900rem;
  z-index: 0;
+ border-radius: 10px;
+ border-color: #bebebe;
+ padding-left: 20px;
 }
 
 input[name="q"]:focus{
@@ -191,11 +199,6 @@ left:40px;
     position: relative;
     right:40px;
     }
-
-/* img{
-    width:80%;
-    height: 80%;
-} */
 
 .hero-1-text{
     position: absolute;
@@ -507,6 +510,7 @@ input[name="q"]{
     height: 30px;
     width: 80%;
     padding-bottom: 5px;
+    padding-left: 20px;
     padding-left: 3px;
     margin-left: 0;
    }
@@ -521,6 +525,13 @@ font-size: 0.800rem;
       top: 40px;
       border: none;
    }
+
+   #burguer-icon,
+   .fa-bag-shopping,
+   .fa-heart,
+   .fa-user {
+    font-size: 1.5rem;
+  }
 
 /*********** shippin info bar */
 header #shipping-info{
@@ -1028,6 +1039,7 @@ border-bottom: solid 1px rgb(122, 13, 13);
         margin-top: 15px;
 }
 
+
 input[name="q"]{
     margin-top: 5px;
     margin-left: 10px;
@@ -1043,6 +1055,13 @@ input[name="q"]{
     margin-left: 5px;
     margin-right: 5px;
 }
+
+#burguer-icon,
+.fa-bag-shopping,
+.fa-heart,
+.fa-user {
+    font-size: 1.7rem;
+  }
 
 /*********** shippin info bar */
 header .shipping-info{
@@ -1467,6 +1486,13 @@ border-bottom: solid 1px rgb(122, 13, 13);
   /******************************************************************** LAPTOP SCREEN */
   @media only screen and (min-width: 1200px) {
   
+    #burguer-icon,
+     .fa-bag-shopping,
+   .fa-heart,
+   .fa-user {
+    font-size: 2.1rem;
+  }
+
 /************** shippin info bar */
  .shipping-info{
     width: 100vw;
@@ -1861,15 +1887,56 @@ border-bottom: solid 1px rgb(122, 13, 13);
  /******************************************************************** LARGE SCREEN */
  @media only screen and (min-width: 1600px) {
   
-    /************** shippin info bar */
+    p, h1, h2,h4, h4,h5,h6, a, #store-information {
+        font-size: clamp(100.75%, 2.2vw, 140%);
+        /** this says:
+           set the minimun font size to around 16px
+           and set the maximun font size to 22px */
+      }
+
+/******************** HEADER */
+#burguer-icon,
+.fa-bag-shopping,
+.fa-heart,
+.fa-user {
+    font-size: 2.5rem;
+  }
+
+  .fa-magnifying-glass{
+    font-size: 2rem;
+  }
+
+  .btn.search {
+    right: 80px;
+  }
+
+  input[name="q"] {
+    margin-top: 0;
+    margin-left: 25px;
+    width: 25%;
+    max-width: 20rem;
+    height: 60px;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+}
+
+.search-container {
+    margin-top: 30px;
+    height: 75px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+    /***************** SHIPPING INFO BAR */
      .shipping-info{
         width: 100vw;
-        height: 40px;
-        font-size: 0.775rem;
+        height: 60px;
+        font-size: 0.875rem;
         background-color: #5D737E;
         color: #F3FFC6;
     }
-    
     
     
     /*************** INFORMATION SECTION **/
@@ -1976,4 +2043,28 @@ text-align: center;
     margin: 0 auto;
 }
 
+/************* STORE INFORMATION SECTION */
+
+#store-information p, #store-information h6{
+    font-size: 1.2rem;
+}
+
+#store-information{
+    max-width: 95rem;
+    margin: 0 auto;
+
+}
+
+.form-group .form-control {
+
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    height: 50px;
+    letter-spacing: 1px;
+ }
+
+ .form-group .form-control::placeholder {
+    font-size:1rem;
+ }
 }
