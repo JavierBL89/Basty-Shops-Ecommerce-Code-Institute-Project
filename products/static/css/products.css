@@ -53,10 +53,6 @@
     font-size: 0.800rem;
 }
 
-.info-box-parent{
-    width: 100%;
-}
-
 /***************** DEALS CAROUSEL SECTION */
 .deals-container{
     margin-top: 9%;
@@ -991,6 +987,10 @@ input[name="image4"],
    #product-info-container{
        padding: 0 25%;
    }
+
+   .product-wraper .info-text{
+    font-size: 0.9rem;
+}
    
      /************** DEALS SECTION ***/
      .carousel-item{
@@ -1154,6 +1154,10 @@ input[name="image4"],
 
 .product-info-container > .delivery-info-box > .info-text {
     font-size: 1rem;
+}
+
+.product-wrpaer .info-text{
+    font-size: 0.9rem;
 }
 
 .deals-container .product-card p{

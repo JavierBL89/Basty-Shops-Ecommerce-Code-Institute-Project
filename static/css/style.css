@@ -49,7 +49,7 @@ header .container-fluid{
 
 header .navbar{
     height: 90px;
-    max-width: 110rem;
+    max-width: 100rem;
 }
 
 header .row{
@@ -59,7 +59,7 @@ header .row{
 
 .search-container{
     height: 45px;
-    max-width: 110rem;
+    max-width: 100rem;
 
 }
 
@@ -323,6 +323,12 @@ margin-top: 5px;
      }
 
 /****************** FOOTER */
+
+#footer{
+ position: absolute;
+  bottom: 0;
+  width: 100%;
+}
 
 .container-footer .row{
     margin: 0;
@@ -1600,43 +1606,6 @@ text-align: center;
     margin: 0 auto;
 }
 
-
-/********************* BAG PAGE */
-.empty-bag-content{
-    border: solid 1px rgb(122, 13, 13);
-    width: 50%;
-    padding: 2%;
-    margin-bottom: 80px;
-
-}
-
-#bag-title h1{
-    font-size: 1.6rem;
-    padding-left: 4%;
-}
-
-#bag-title, .empty-bag-content{
-    margin-left: 10%;
-}
-
-.product-sku-bag, .product-title-bag, .product-quantity-bag, .product-price-bag{
-    font-size: 0.750rem;
-}
-
-.item-img-bag{
-    width: 40%;
-    height: 90%;
-}
-
-#checkout-button{ 
-    font-size: 1.1rem;
-    color: #FF6542;
-    width: 25%;
-}
-
-#checkout-button:hover{ 
-    border: none;
-}
 
 /************************* ALL-AUTH-FORMS **/
 .header-container .allauth-form-inner-content{
