@@ -212,12 +212,12 @@ left:40px;
 }
 
 /**************** CATEGORIES SECTION */
-.container-categories{
+.categories-wraper{
     margin: 0 auto;
     padding: 0 5%;
 }
 
-.container-categories a{
+.categories-wraper a{
     text-decoration: none;
 }
 
@@ -562,7 +562,6 @@ left:0;
 }
 
 .hero-box-2{
-    height: 520px;
     position: relative;
     right:0;
     margin-top: 10px;
@@ -587,20 +586,20 @@ img{
 }
 
  /**************** CATEGORIES SECTION */
-.container-categories{
+.categories-wraper{
     margin: 0 auto;
     padding: 0;
 }
 
 .category-box{
-    height: 250px;
-    width: 100%;
-    margin-top: 150px;
+    margin: 150px auto auto;
+    min-width: 10rem;
+    max-width: 16rem;
 }
 
 .category-box img{
-    height:90%;
-    width: 70%;
+    height: 15rem;
+    width: 100%;
 }
 
 /***************** NEW ARRIVALS SECTION ***/
@@ -1076,7 +1075,6 @@ left:0;
 }
 
 .hero-box-2{
-    height: 520px;
     position: relative;
     right:0;
     margin-top: 10px;
@@ -1098,23 +1096,21 @@ img{
     right:180px;
 }
 
-
 /**************** CATEGORIES SECTION */
-.container-categories{
+.categories-wraper{
     margin: 0 auto;
     padding: 0;
 }
 
 .category-box{
-    height: 350px;
-    width: 100%;
-    margin-top: 150px;
+    margin: 150px auto;
+    min-width: 15rem;
+    max-width: 25rem;
 }
 
-
 .category-box img{
-    height:100%;
-    width: 50%;
+    height: 21rem;
+    width: 100%;
 }
 
 .category-title{
@@ -1541,6 +1537,32 @@ img{
     right:200px;
 }
 
+/**************** CATEGORIES SECTION */
+.categories-wraper{
+    margin: 0 auto;
+    padding: 0;
+    max-width: 60rem;
+}
+
+.category-box{
+    margin: 150px auto;
+    min-width: 15rem;
+    max-width: 18rem;
+    height: 20rem;
+}
+
+
+.category-box img{
+    height: 17rem;
+    width: 100%;
+}
+
+.category-title{
+text-align: center;   
+    letter-spacing: 3px;
+}
+
+
 /********************* BAG PAGE */
 .empty-bag-content{
     border: solid 1px rgb(122, 13, 13);
@@ -1888,7 +1910,8 @@ border-bottom: solid 1px rgb(122, 13, 13);
         right:0;
         }
     
-    img{
+        .hero-img-box-1 img,
+        .hero-img-box-2 img{
         width:100%;
         min-height: 900px;
         max-height: 1100px;
@@ -1906,5 +1929,31 @@ border-bottom: solid 1px rgb(122, 13, 13);
         top: 30px;
         right:200px;
     }
-    
+
+    /**************** CATEGORIES SECTION */
+.categories-wraper{
+    margin: 0 auto;
+    padding: 0;
+    max-width: 60rem;
+
+    max-width: 80rem;
+}
+
+.category-box{
+    margin: 150px 0;
+    min-width: 17rem;
+    max-width: 25.6rem;
+}
+
+
+.category-box img{
+    height: 23.5rem;
+    width: 100%;
+}
+
+.category-title{
+text-align: center;   
+    letter-spacing: 3px;
+}
+
 }

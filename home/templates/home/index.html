@@ -31,31 +31,40 @@
 </section>
 <!------------------------------- CATEGORIES SECTION ----------->
 <section id="categories">
-    <div class="container-fluid container-categories text-center mb-5">
+    <div class="container-fluid categories-wraper text-center mb-5">
         <div class="row mt-2">
             <div class="col-12 col-md-12 col-lg-4">
-                    <div class="category-box  shoes-box-category">
-                        <a aria-label="Shoes" id="shoes-img-link" href="{% url 'products' %}?category=shoes">
-                            <img class="category-img" src="{{ MEDIA_URL }}fzz18201.webp" alt="shoes-category">
-                        </a>
-                        <h3 class="shoes-title category-title mt-2">SHOES</h3>
+                    <div class="category-container">
+                        <div class="category-box  shoes-box-category">
+                            <a aria-label="Shoes" id="shoes-img-link" href="{% url 'products' %}?category=shoes">
+                                <img class="category-img" src="{{ MEDIA_URL }}fzz18201.webp" alt="shoes-category">
+                            </a>
+                            <h3 class="shoes-title category-title mt-2">SHOES</h3>
+                        </div>
                     </div>
+                    
             </div>
             <div class="col-12 col-md-12 col-lg-4">
+                <div class="category-container">
                     <div class="category-box boots-box-category">
                         <a aria-label="Boots" id="boots-img-link" href="{% url 'products' %}?category=boots">
                             <img class="category-img" src="{{ MEDIA_URL }}images (1).webp" alt="boots-category">
                         </a>
                         <h3 class="boots-title category-title mt-2">BOOTS</h3>
                     </div>
+                </div>
+                   
             </div>
             <div class="col-12 col-md-12 col-lg-4">
+                <div class="category-container">
                     <div class="category-box sneakers-box-category">
                         <a aria-label="Sneakers" id="sneakers-img-link" href="{% url 'products' %}?category=sneakers">
                             <img class="category-img" src="{{ MEDIA_URL }}images (5).webp" alt="sneaker-category">
                         </a>
                         <h3 class="shoes-title category-title mt-2">SNEAKERS</h3>
                     </div>
+                </div>
+
             </div>
         </div>
     </div>

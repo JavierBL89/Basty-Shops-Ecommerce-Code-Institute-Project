@@ -212,12 +212,12 @@ left:40px;
 }
 
 /**************** CATEGORIES SECTION */
-.container-categories{
+.categories-wraper{
     margin: 0 auto;
     padding: 0 5%;
 }
 
-.container-categories a{
+.categories-wraper a{
     text-decoration: none;
 }
 
@@ -562,7 +562,6 @@ left:0;
 }
 
 .hero-box-2{
-    height: 520px;
     position: relative;
     right:0;
     margin-top: 10px;
@@ -587,20 +586,20 @@ img{
 }
 
  /**************** CATEGORIES SECTION */
-.container-categories{
+.categories-wraper{
     margin: 0 auto;
     padding: 0;
 }
 
 .category-box{
-    height: 250px;
-    width: 100%;
-    margin-top: 150px;
+    margin: 150px auto auto;
+    min-width: 10rem;
+    max-width: 16rem;
 }
 
 .category-box img{
-    height:90%;
-    width: 70%;
+    height: 15rem;
+    width: 100%;
 }
 
 /***************** NEW ARRIVALS SECTION ***/
@@ -1076,7 +1075,6 @@ left:0;
 }
 
 .hero-box-2{
-    height: 520px;
     position: relative;
     right:0;
     margin-top: 10px;
@@ -1098,23 +1096,21 @@ img{
     right:180px;
 }
 
-
 /**************** CATEGORIES SECTION */
-.container-categories{
+.categories-wraper{
     margin: 0 auto;
     padding: 0;
 }
 
 .category-box{
-    height: 350px;
-    width: 100%;
-    margin-top: 150px;
+    margin: 150px auto;
+    min-width: 15rem;
+    max-width: 25rem;
 }
 
-
 .category-box img{
-    height:100%;
-    width: 50%;
+    height: 21rem;
+    width: 100%;
 }
 
 .category-title{
@@ -1464,7 +1460,7 @@ border-bottom: solid 1px rgb(122, 13, 13);
 }
 
 }
-  /******************************************************************** DESKTOP SCREEN */
+  /******************************************************************** LAPTOP SCREEN */
   @media only screen and (min-width: 1200px) {
   
 /************** shippin info bar */
@@ -1494,6 +1490,8 @@ border-bottom: solid 1px rgb(122, 13, 13);
     font-weight: bold;
 }
 
+
+/***************** HERO SECTION */
 .hero-img-box-1{
     margin-left: 4rem;
 }
@@ -1523,12 +1521,14 @@ left:0;
 
 img{
     width:100%;
+    max-height: 900px;
 }
 
 .hero-1-text{
     position: absolute;
     top: 270px;
     left:200px;
+    max-height: 500px;
 }
 
 .hero-2-text{
@@ -1536,6 +1536,32 @@ img{
     top: 30px;
     right:200px;
 }
+
+/**************** CATEGORIES SECTION */
+.categories-wraper{
+    margin: 0 auto;
+    padding: 0;
+    max-width: 60rem;
+}
+
+.category-box{
+    margin: 150px auto;
+    min-width: 15rem;
+    max-width: 18rem;
+    height: 20rem;
+}
+
+
+.category-box img{
+    height: 17rem;
+    width: 100%;
+}
+
+.category-title{
+text-align: center;   
+    letter-spacing: 3px;
+}
+
 
 /********************* BAG PAGE */
 .empty-bag-content{
@@ -1814,6 +1840,120 @@ border-bottom: solid 1px rgb(122, 13, 13);
     background: none;
     color: #FF6542;
     font-size: 1rem;
+}
+
+}
+
+
+
+ /******************************************************************** LARGE SCREEN */
+ @media only screen and (min-width: 1600px) {
+  
+    /************** shippin info bar */
+     .shipping-info{
+        width: 100vw;
+        height: 40px;
+        font-size: 0.775rem;
+        background-color: #5D737E;
+        color: #F3FFC6;
+    }
+    
+    
+    
+    /*************** INFORMATION SECTION **/
+    #store-information .row{
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    
+    .information-box button{
+        letter-spacing: 1px;
+        font-size: 0.900rem;
+        height: 45px;
+        width: 99.5%;
+        background-color: #FF6542;
+        color: #ffffff;
+        font-weight: bold;
+    }
+    
+    
+    /***************** HERO SECTION */
+    .hero-wraper {
+        max-width: 100rem;
+        padding: 0;
+    }
+    
+    .hero-img-box-1{
+        margin-left: 8rem;
+    }
+    
+    .hero-img-box-2{
+        margin-right: 8rem;
+    }
+    
+    .hero-img-box-1,
+    .hero-img-box-2{
+        text-align: center;
+        max-width: 40rem;
+        min-width: 27rem;
+        /* margin: 0 auto; */
+    }
+    
+    .hero-box-1{
+    position: relative;
+    left:0;
+    
+    }
+    
+    .hero-box-2{
+        position: relative;
+        right:0;
+        }
+    
+        .hero-img-box-1 img,
+        .hero-img-box-2 img{
+        width:100%;
+        min-height: 900px;
+        max-height: 1100px;
+    }
+    
+    .hero-1-text{
+        position: absolute;
+        top: 270px;
+        left:200px;
+        max-height: 500px;
+    }
+    
+    .hero-2-text{
+        position: absolute;
+        top: 30px;
+        right:200px;
+    }
+
+    /**************** CATEGORIES SECTION */
+.categories-wraper{
+    margin: 0 auto;
+    padding: 0;
+    max-width: 60rem;
+
+    max-width: 80rem;
+}
+
+.category-box{
+    margin: 150px 0;
+    min-width: 17rem;
+    max-width: 25.6rem;
+}
+
+
+.category-box img{
+    height: 23.5rem;
+    width: 100%;
+}
+
+.category-title{
+text-align: center;   
+    letter-spacing: 3px;
 }
 
 }
