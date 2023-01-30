@@ -2068,34 +2068,5 @@ text-align: center;
     font-size:1rem;
  }
 
- /************** PRODUCTS PAGE */
 
- .product-card-box {
-    /* height: 450px; */
-    max-width: 21rem;
-}
-
-.product-card-box p, 
-.container-fluid .products-number,
- .container-fluid .products-sort button{
-    font-size: 0.950rem;
-}
-
-.product-card-box h5{
-    font-size: 1.1rem;
-}
-
-.badge {
-    font-size: 0.800rem;
-    letter-spacing: 2px;
-    padding: 10px;
-}
-.head-products-container{
-    max-width: 70rem;
-}
-
-.products-wraper{
-    max-width: 70rem;
-
-}
 }
