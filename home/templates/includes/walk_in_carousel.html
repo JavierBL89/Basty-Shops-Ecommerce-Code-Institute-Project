@@ -7,9 +7,9 @@
           </div>
       <div class="carousel-inner ">
             <div class="carousel-item active mt-5">
-                <div class="cards-wraper d-flex justify-content-center">
+                <div class="cards-wraper d-flex justify-content-around">
                     {% for product in products %}
-                    {% if product.id == 1 %}
+                    {% if product.id == 177 %}
                     <div class="product-card mx-1 mx-md-1 mx-lg4">
                         <div class="card-img-box">
                             <a href="{% url 'product_detail' product.id %}" >
@@ -50,7 +50,7 @@
                 </div>
             </div>
             <div class="carousel-item mt-5">
-                <div class="cards-wraper d-flex justify-content-center">
+                <div class="cards-wraper d-flex justify-content-around">
                     {% for product in products %}
                     {% if product.id == 1 %}
                     <div class="product-card mx-1 mx-md-1 mx-lg4">

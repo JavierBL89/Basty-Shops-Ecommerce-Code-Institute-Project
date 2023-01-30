@@ -611,7 +611,9 @@ img{
 .carousel-inner{
     height: 310px;
     width: 100%;
+    max-width: 17rem;
     padding-left: 1%;
+    margin: 0 auto;
 }
 
 .carousel-inner .carousel-item{
@@ -621,6 +623,7 @@ img{
 .product-card .card-img-box {
     height: 105px;
     width: 90px;
+    max-width: 120px;
     background-color: rgb(122, 13, 13);
 }
 
@@ -1127,7 +1130,8 @@ text-align: center;
 .carousel-inner{
     height: 500px;
     width: 100%;
-    padding-left: 10%;
+    max-width: 37rem;
+    margin: 0 auto;
 }
 
 .carousel-inner .carousel-item{
@@ -1562,6 +1566,14 @@ text-align: center;
     letter-spacing: 3px;
 }
 
+/***************** NEW ARRIVALS SECTION ***/
+.carousel-inner{
+    height: 500px;
+    width: 100%;
+    max-width: 50rem;
+    margin: 0 auto;
+}
+
 
 /********************* BAG PAGE */
 .empty-bag-content{
@@ -1954,6 +1966,14 @@ border-bottom: solid 1px rgb(122, 13, 13);
 .category-title{
 text-align: center;   
     letter-spacing: 3px;
+}
+
+/***************** NEW ARRIVALS SECTION ***/
+.carousel-inner{
+    height: 500px;
+    width: 100%;
+    max-width: 54rem;
+    margin: 0 auto;
 }
 
 }
