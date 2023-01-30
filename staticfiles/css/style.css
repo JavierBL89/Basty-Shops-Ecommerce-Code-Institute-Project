@@ -1064,7 +1064,7 @@ header .shipping-info{
 .hero-img-box-1,
 .hero-img-box-2{
     text-align: center;
-    max-width: 35rem;
+    max-width: 43rem;
     min-width: 27rem;
     margin: 0 auto;
 }
@@ -1492,6 +1492,49 @@ border-bottom: solid 1px rgb(122, 13, 13);
     background-color: #FF6542;
     color: #ffffff;
     font-weight: bold;
+}
+
+.hero-img-box-1{
+    margin-left: 4rem;
+}
+
+.hero-img-box-2{
+    margin-right: 4rem;
+}
+
+.hero-img-box-1,
+.hero-img-box-2{
+    text-align: center;
+    max-width: 40rem;
+    min-width: 27rem;
+    /* margin: 0 auto; */
+}
+
+.hero-box-1{
+position: relative;
+left:0;
+
+}
+
+.hero-box-2{
+    position: relative;
+    right:0;
+    }
+
+img{
+    width:100%;
+}
+
+.hero-1-text{
+    position: absolute;
+    top: 270px;
+    left:200px;
+}
+
+.hero-2-text{
+    position: absolute;
+    top: 30px;
+    right:200px;
 }
 
 /********************* BAG PAGE */
