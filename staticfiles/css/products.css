@@ -53,14 +53,6 @@
     font-size: 0.800rem;
 }
 
-.product-info-container .delivery-info-box .info-text{
-    font-size: 0.650rem;
-}
-
-.info-box-parent{
-    width: 100%;
-}
-
 /***************** DEALS CAROUSEL SECTION */
 .deals-container{
     margin-top: 9%;
@@ -298,6 +290,9 @@
     height: 95%;
 }
    
+.product-info-container .delivery-info-box .info-text{
+    font-size: 0.650rem;
+} 
    .product-description-box p,
    .product-details-box li,
    .product-details-box p{
@@ -847,7 +842,7 @@ input[name="image4"],
 
      
        /******************************************************************** DESKTOP SCREEN */
-       @media only screen and (min-width: 1000px) {
+       @media only screen and (min-width: 1200px) {
    
    /************** PRODUCTS PAGE */
    .products-sort button{
@@ -960,8 +955,8 @@ input[name="image4"],
        font-size: 0.800rem;
    }
    
-   .fa-heart{
-       font-size: 1.5rem;
+   .product-details-container .fa-heart{
+       font-size: 1.7rem;
    }
    
    .size-title{
@@ -992,6 +987,10 @@ input[name="image4"],
    #product-info-container{
        padding: 0 25%;
    }
+
+   .product-wraper .info-text{
+    font-size: 0.9rem;
+}
    
      /************** DEALS SECTION ***/
      .carousel-item{
@@ -1094,5 +1093,98 @@ input[name="image4"],
     top: 15px;
     font-size: 0.800rem;
      }
-   
+
+    }
+
+     @media only screen and (min-width: 1600px) {
+         /************** PRODUCTS PAGE */
+
+ .product-card-box {
+    /* height: 450px; */
+    max-width: 21rem;
 }
+
+.product-card-box p, 
+.container-fluid .products-number,
+ .container-fluid .products-sort button{
+    font-size: 0.950rem;
+}
+
+.product-card-box h5{
+    font-size: 1.1rem;
+}
+
+.badge {
+    font-size: 0.800rem;
+    letter-spacing: 2px;
+    padding: 10px;
+}
+
+.head-products-container{
+    max-width: 70rem;
+}
+
+.products-wraper{
+    max-width: 70rem;
+}
+
+/****************** PRODUCTS DETAIL PAGE */
+.product-wraper{
+    max-width: 90rem;
+    margin: 0 auto;
+}
+
+.product-wraper p, .product-wraper h6{
+    font-size: 1.1rem;
+}
+
+.product-wraper .add-to-bag-button-container > button{
+    font-size: 0.9rem;
+    padding: 3px;
+    height: 50px;
+
+}
+
+.product-details-box .list > li,
+.product-description-box p,
+.info-text i,
+.info-text p{
+    font-size: 1.1rem;
+}
+
+.product-info-container > .delivery-info-box > .info-text {
+    font-size: 1rem;
+}
+
+.product-wrpaer .info-text{
+    font-size: 0.9rem;
+}
+
+.deals-container .product-card p{
+    font-size: 1.1rem;
+}
+    
+/******************* DEALS SECTION  */
+
+.deals-container .carousel-inner{
+    margin: 0 auto;
+} 
+.deals-container .carousel-inner > .carousel-item{
+
+    margin: auto 40px;
+}
+
+/************* NEWSLETTER SUPSCRIPTION SECTIO */
+
+.subscription-product-page-container {
+    padding-top: 20px;
+    margin: 140px auto 10px;
+    height: 310px;
+    width: 550px;
+      }
+
+      .subscription-product-page-container button {
+        width: 70%;
+        font-size: 1rem;
+    }
+    }

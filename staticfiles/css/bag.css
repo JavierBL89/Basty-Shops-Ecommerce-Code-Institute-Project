@@ -216,7 +216,7 @@
 }
 
 /******************************************************************** DESKTOP SCREEN */
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1200px) {
   .bag-items-container p {
     font-size: 0.700rem;
     margin: 10px auto;
@@ -268,4 +268,63 @@
     letter-spacing: 1px;
     border: none;
   }
+
+  /********************* BAG PAGE */
+.empty-bag-content{
+  border: solid 1px rgb(122, 13, 13);
+  width: 50%;
+  padding: 2%;
+  margin-bottom: 30px;
+}
+
+#bag-title h1{
+  font-size: 1.6rem;
+  padding-left: 4%;
+}
+
+#bag-title, .empty-bag-content{
+  margin-left: 10%;
+}
+
+.product-sku-bag, .product-title-bag, .product-quantity-bag, .product-price-bag{
+  font-size: 0.750rem;
+}
+
+.item-img-bag{
+  width: 40%;
+  height: 90%;
+}
+
+#checkout-button{ 
+  font-size: 1.1rem;
+  color: #FF6542;
+  width: 25%;
+}
+
+#checkout-button:hover{ 
+  border: none;
+}
+
+}
+  @media only screen and (min-width: 1600px){
+
+  .page-wraper{
+    min-height: 50rem;
+  }
+.bag-wraper{
+  margin: 0 auto;
+  max-width: 85em;
+  min-height: 100%;
+  padding-bottom: 2.5rem;
+}
+
+/* .bag-wraper p{
+ font-size: 1.1rem;
+} */
+
+.main-wraper{
+  position: relative;
+  height: 100vh;
+}
+
 }
