@@ -60,7 +60,6 @@ header .row{
 .search-container{
     height: 45px;
     max-width: 100rem;
-
 }
 
 input[name="q"]{
@@ -325,7 +324,7 @@ margin-top: 5px;
 /****************** FOOTER */
 
 #footer{
- position: absolute;
+ position: relative;
   bottom: 0;
   width: 100%;
 }
