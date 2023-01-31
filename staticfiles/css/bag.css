@@ -273,16 +273,6 @@
 
 @media only screen and (min-width: 1600px){
 
-  .page-wraper{
-    min-height: 50rem;
-  }
-.bag-wraper{
-  margin: 0 auto;
-  max-width: 85em;
-  min-height: 100%;
-  padding-bottom: 2.5rem;
-}
-
 /* .bag-wraper p{
  font-size: 1.1rem;
 } */
