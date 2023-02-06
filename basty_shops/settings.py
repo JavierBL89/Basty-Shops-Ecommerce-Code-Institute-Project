@@ -30,7 +30,7 @@ SECRET_KEY = os.getenv('SECRET_KEY', '')
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['bastyshops.onrender.com', 'localhost', 'https://8000-javierbl89-bastyshopsec-sud46orrevb.ws-eu84.gitpod.io']
+ALLOWED_HOSTS = ['bastyshops.onrender.com', 'localhost', 'https://8000-javierbl89-bastyshopsec-zzallv4kqa3.ws-eu85.gitpod.io']
 
 # Add Render.com URL to allowed hosts
 RENDER_EXTERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME')
@@ -44,7 +44,7 @@ X_FRAME_OPTIONS = 'SAMEORIGIN'
 
 # needed to be able to login(new in django 4)
 CSRF_TRUSTED_ORIGINS = [
-    'https://8000-javierbl89-bastyshopsec-sud46orrevb.ws-eu84.gitpod.io',
+    'https://8000-javierbl89-bastyshopsec-zzallv4kqa3.ws-eu85.gitpod.io',
     'https://bastyshops.herokuapp.com/'
     ]
 

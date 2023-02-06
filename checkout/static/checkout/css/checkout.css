@@ -9,6 +9,7 @@ input:-webkit-autofill, input:-webkit-autofill, input:-webkit-autofill:focus {
 .stripe-style-input {
   box-sizing: border-box;
   height: 40px;
+  max-width: 25rem;
   padding: 10px 12px;
   margin-bottom: 15px;
   border: 1px solid transparent;
@@ -77,6 +78,7 @@ select option[value=""] {
    width: 95%;
    border-radius: 10px;
 }
+
    .main-wraper .checkout-container .form-control{
       margin-bottom: 5px;
       font-size: 0.850rem;
@@ -93,7 +95,8 @@ select option[value=""] {
 
    .cnt-checkout{
       background-color: rgb(102, 236, 149);
-      width: 100%;
+      max-width: 25rem;
+
       color: rgb(122, 13, 13);
    }
    .cnt-checkout:hover{
@@ -158,3 +161,21 @@ select option[value=""] {
      font-size: 0.700rem;
 }
  }
+
+
+  /******************************************************************** LARGE SCREEN */
+  @media only screen and (min-width: 1600px) {
+
+   p, h1, h2,h4, h4,h5,h6, a, #store-information {
+      font-size: clamp(100.75%, 2.2vw, 130%);
+      /** this says:
+         set the minimun font size to around 16px
+         and set the maximun font size to 22px */
+    }
+
+   .main-wraper .checkout-container{
+      
+   min-width: 55rem;
+    max-width: 80rem;
+   }
+  }
